@@ -1,0 +1,4 @@
+[
+{"filter" : "propinsi", "value" : "56", "type_filter" : "dropdown"},
+{"filter" : "status", "value" : "test ihir", "type_filter" : "input"}
+]

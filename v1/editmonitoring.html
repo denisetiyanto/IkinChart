@@ -1,0 +1,60 @@
+<form class="form-horizontal" role="form">
+ <fieldset class="fieldset-bottom"><legend><h3>Edit Monitoring</h3></legend>
+  <div class="form-group">
+    <label for="namamonitoring" class="col-sm-3 control-label">Nama Monitoring</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="namamonitoring" placeholder="Nama Monitoring">
+    </div>
+  </div>  
+
+  <div class="form-group">
+    <label for="jenis" class="col-sm-3 control-label">Jenis Monitoring</label>
+    <div class="col-sm-9">
+      <select name="jenis" id="jenis" class="form-control">
+      <option disabled>Pilih Jenis Monitoring</option>     
+      </select>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="jenis" class="col-sm-3 control-label">Chart</label>
+    <div class="col-sm-9">
+      <select name="jenischart" id="jenischart" class="form-control">
+      <option disabled>Pilih Jenis Chart</option>     
+      <option value="gauge">Gauge</option>
+      <option value="bar">Bar</option>
+      <option value="line">Line</option>
+      <option value="pie">Pie</option>
+      <option value="radar">Radar</option>
+      <option value="polar">Polar</option>
+      </select>
+    </div>
+  </div>
+ 
+ 
+    <div class="form-group">
+    <div class="col-sm-offset-3 col-sm-9 ">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="s_dashboard" id="s_dashboard"> Tampilkan di dashboard
+        </label>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  
+</fieldset>
+<fieldset><legend><h3>Filter<a href="#" id="addfilter" class="pull-right btn btn-primary"><span class="glyphicon glyphicon-plus"></span></a></h3></legend>
+<div id="_filter">
+	
+</div>
+</fieldset>
+
+<div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="button" id="post_monitoring" class="btn btn-primary">Simpan</button>
+    </div>
+  </div>
+</form>
